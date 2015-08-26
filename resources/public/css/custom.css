@@ -1,0 +1,166 @@
+.ztext {
+  color: #fff;
+  padding: 13px 15px 0 15px;
+  font-family: 'Lato';
+  font-size: 0.8125rem;
+  font-weight: normal;
+}
+
+
+.pagecontents {
+  min-height: 563px;
+}
+
+footer {
+  background-color: #000;
+}
+
+.footer-top {
+  color:#fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.top-bar-section {
+  color:#ffffff;
+}
+
+body {
+  color:#fff;
+  font-weight: 400 !important;
+  font-family: Lato;
+}
+
+body a {
+  color:#fff;
+  font-weight: 400 !important;
+  font-family: Lato;
+}
+
+body a:link {
+    color: #fff;
+}
+
+/* visited link */
+body a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+body a:hover {
+    color: #fff;
+}
+
+/* selected link */
+body a:active {
+    color: #fff;
+}
+
+body h1 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+body h2 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+body h3 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+body h4 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+body h5 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+body h6 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'Lato';
+}
+
+/*social icons*/
+.soc-icon-fb {
+  background-color:#4c66a4;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding-top:5px;
+  margin-right:10px;
+}
+
+.soc-icon-tw {
+  background-color:#55acee;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding-top:5px;
+  margin-right:10px;
+}
+
+.soc-icon-gp {
+  background-color:#d14836;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding-top:5px;
+  margin-right:10px;
+}
+
+.soc-icon-yt {
+  background-color:#cc181e;
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding-top:3px;
+  margin-right:10px;
+}
+
+.soc-list li {
+  margin-top:5px;
+}
+
+/*social icons end */
+
+.zpsd {
+  color:red;
+}
+
+.acc-button:hover {
+  padding-top:3px !important;
+  border-bottom: 4px solid yellow;
+  line-height: 38px !important;
+}
+
+.acc-button {
+  padding-top:3px !important;
+  border-bottom: 4px solid grey;
+  line-height: 38px !important;
+}
+
+.top-bar {
+  background-color:#231f20;
+}
+
+.top-bar * {
+  background-color:#231f20 !important;
+}
