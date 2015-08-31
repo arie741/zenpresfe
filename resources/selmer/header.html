@@ -1,22 +1,25 @@
 <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
     <ul class="title-area">
         <li class="name">
-            <h1><a href="/"><b><bdi class="zpsd">ZEN</bdi>PRES</b></a>
-            </h1>
+            <a href="/"><b><bdi class="zpsd">zen</bdi>pres</b></a>
         </li>
     </ul>
     <section class="top-bar-section">
-        <ul class="left">
-            <li class="has-dropdown">
-                <a href="#">SD</a>
-                <ul class="dropdown">
-                    <li class="active"><a href="#">SD</a></li>
-                    <li><a href="#">SMP</a></li>
-                    <li><a href="#">SMA</a></li>
-                    <li><a href="#">GURU</a></li>
-                </ul>
-            </li>
-        </ul>
+        <a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class="left">
+            SD 
+            <div class="arrow-down"></div>
+        </a>
+        <div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+            <div class="row">
+                <p class="zpdesc">pilih zenpres yang sesuai</p>
+            </div>
+            <div class="row">
+                <div class="small-3 columns">SD</div>
+                <div class="small-3 columns">SMP</div>
+                <div class="small-3 columns">SMA</div>
+                <div class="small-3 columns">GURU</div>
+            </div>
+        </div>
         <!-- Right Nav Section -->
         <ul class="right">
             <li><a href="#">DP</a></li>
@@ -32,5 +35,5 @@
                 </ul>
             </li>
         </ul>
-</section>
+    </section>
 </nav>

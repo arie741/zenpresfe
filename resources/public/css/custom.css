@@ -1,11 +1,15 @@
+@font-face {
+    font-family: cLato;
+    src: url('/css/customfonts/Lato/Lato-Regular.ttf');
+}
+
 .ztext {
   color: #fff;
   padding: 13px 15px 0 15px;
-  font-family: 'Lato';
+  font-family: cLato;
   font-size: 0.8125rem;
   font-weight: normal;
 }
-
 
 .pagecontents {
   min-height: 563px;
@@ -30,13 +34,13 @@ ul {
 body {
   color:#fff;
   font-weight: 400 !important;
-  font-family: Lato;
+  font-family: cLato;
 }
 
 body a {
   color:#fff;
   font-weight: 400 !important;
-  font-family: Lato;
+  font-family: cLato;
 }
 
 body a:link {
@@ -61,37 +65,37 @@ body a:active {
 body h1 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 body h2 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 body h3 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 body h4 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 body h5 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 body h6 {
   color:#fff;
   font-weight: normal;
-  font-family: 'Lato';
+  font-family: cLato;
 }
 
 /*social icons*/
@@ -163,4 +167,27 @@ body h6 {
 
 .top-bar * {
   background-color:#231f20 !important;
+}
+
+.name a {
+  font-size: 24px;
+  padding-left: 13px;
+}
+
+.fdropdown.content {
+  max-width: 300px;
+}
+
+.zpdesc {
+  text-align: center;
+  color:#58595b;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #fff;
 }
