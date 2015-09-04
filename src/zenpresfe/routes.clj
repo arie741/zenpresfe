@@ -7,6 +7,18 @@
 
 (defroutes home
   (GET "/" req
-       (pages/homepage)))
+       (pages/homepage))
+  (GET "/sd" req
+       (pages/homepagesd))
+  (GET "/smp" req
+       (pages/homepagesmp))
+  (GET "/sma" req
+       (pages/homepagesma))
+  (GET "/guru" req
+       (pages/homepageguru))
+  (GET "/signup" req
+       (pages/signuppage))
+  (GET "/actionsignup" req
+       (pages/actionsignuppage)))
 
-;asdasd
+;asdasds

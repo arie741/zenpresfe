@@ -1,23 +1,23 @@
 <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
-    <ul class="title-area">
+    <ul class="title-area not-button">
         <li class="name">
-            <a href="/"><b><bdi class="zpsd">zen</bdi>pres</b></a>
+            <a href="/"><b class="zpguru">zen</b><b>pres</b></a>
         </li>
     </ul>
     <section class="top-bar-section">
-        <a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class="left">
-            SD 
-            <div class="arrow-down"></div>
+        <a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false" class="left kelas">
+            GURU
+            <span class="arrow-down right"></span>
         </a>
-        <div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+        <div id="drop2" data-dropdown-content class="f-dropdown content contentkelas" aria-hidden="true" tabindex="-1">
             <div class="row">
                 <p class="zpdesc">pilih zenpres yang sesuai</p>
             </div>
-            <div class="row">
-                <div class="small-3 columns">SD</div>
-                <div class="small-3 columns">SMP</div>
-                <div class="small-3 columns">SMA</div>
-                <div class="small-3 columns">GURU</div>
+            <div class="row zpclassmenuguru">
+                <a href="/sd" class="small-3 columns">SD</a>
+                <a href="/smp" class="small-3 columns">SMP</a>
+                <a href="/sma" class="small-3 columns">SMA</a>
+                <a href="/guru" class="small-3 columns active">GURU</a>
             </div>
         </div>
         <!-- Right Nav Section -->
@@ -34,6 +34,8 @@
                     <li><a href="#">Log out</a></li>
                 </ul>
             </li>
+            
+            
         </ul>
     </section>
 </nav>
