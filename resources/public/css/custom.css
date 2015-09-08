@@ -8,6 +8,16 @@
     src: url('/css/customfonts/Lato/Lato-Hairline.ttf');
 }
 
+@font-face {
+    font-family: cLato-Italic;
+    src: url('/css/customfonts/Lato/Lato-Italic.ttf');
+}
+
+@font-face {
+    font-family: cLato-Light;
+    src: url('/css/customfonts/Lato/Lato-Light.ttf');
+}
+
 .ztext {
   color: #fff;
   padding: 13px 15px 0 15px;
@@ -305,4 +315,117 @@ form input[type="text"], form select {
 
 .panel-alert {
   background-color: #c7ba00;
+}
+
+.homecar {
+  letter-spacing: 3px;
+}
+
+.homecar {
+  background-color: #231F20;
+}
+
+.quotetext b {
+  font-family:cLato-Italic;
+}
+
+.quotetext div {
+  font-family:cLato-Light;
+}
+
+.homeui img {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bigbr {
+  margin-top:130px;
+  margin-bottom:130px;
+}
+
+/* tboxes */
+.tbox1, .tbox2, .tbox3 {
+  color:#000;
+  box-shadow: 10px 10px #000000;
+ 
+}
+
+.tbox1 {
+  margin-top:18px;
+  width:150px;
+}
+
+.tbox1 .tboxupper {
+  font-size: 12px;
+  padding:18px 0 18px 0;
+  background-color:#8DC63F;
+}
+
+.tbox1 .tboxbot {
+  background-color:#39B54A;
+  padding:15px 0 15px 0;
+}
+
+.tbox2 {
+  width:180px;
+}
+
+.tbox2 .tboxupper {
+  font-size:20px;
+  padding:15px 10px 15px 10px;
+  background-color:#E2D100;
+}
+
+.tbox2 .tboxbot {
+  background-color:#C7BA00;
+  padding:60px 0 60px 0;
+  font-size: 38px
+}
+
+.tbox2 .tboxbot b {
+  border-bottom:8px solid black;
+}
+
+.tbox3 {
+  margin-top:18px;
+  width:150px;
+}
+
+.tbox3 .tboxupper {
+  font-size: 12px;
+  padding:18px 0 18px 0;
+  background-color:#27AAE1;
+}
+
+.tbox3 .tboxbot {
+  background-color:#1C75BC;
+  padding:21px 0 21px 0;
+}
+
+.hcbutton {
+  background-color:#58595b;
+  border-radius:12px;
+}
+
+/*clearfix*/
+.clearfix:after {
+visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;  
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/*clearfix*/
+
+/*center*/
+.center {
+  margin-right: auto;
+  margin-left:auto;
 }
