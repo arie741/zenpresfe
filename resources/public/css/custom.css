@@ -313,6 +313,11 @@ form input[type="text"], form select {
   color:#000000;
 }
 
+form input[type="password"], form select {
+  background-color:#58595b;
+  color:#000000;
+}
+
 .panel-alert {
   background-color: #c7ba00;
 }

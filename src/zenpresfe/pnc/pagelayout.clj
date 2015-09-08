@@ -5,6 +5,10 @@
 
 ;;layout
 
+
+(html/deftemplate headern "selmer/header.html"
+  [])
+
 (html/deftemplate headersd "selmer/headersd.html"
   [])
 
@@ -30,4 +34,4 @@
 (defn createpage [pcontents tcontent header]
   (apply str (layout pcontents tcontent header)))
 
-;sssssssssssssssssssssssssssssssssss
+;ssssssssssssssssssssssssssssssssssssss

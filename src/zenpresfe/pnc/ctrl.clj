@@ -5,14 +5,15 @@
             [hiccup.core :as hc]
             [zenpresfe.pnc.homepage :refer :all]
             [zenpresfe.pnc.signup :refer :all]
-            [zenpresfe.pnc.actionsignup :refer :all]))
+            [zenpresfe.pnc.actionsignup :refer :all]
+            [zenpresfe.pnc.login :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
 
 ;;homepage
 (defn homepage []
-  (createpage home (str "Home" ctitle) headersd))
+  (createpage home (str "Home" ctitle) headern))
 
 ;;homepagesd
 (defn homepagesd []
@@ -37,3 +38,7 @@
 ;;actionsignup
 (defn actionsignuppage []
   (createpage actionsignup (str "Sign-up" ctitle) headersd))
+
+;;login 
+(defn loginpage []
+  (createpage login (str "Log in" ctitle) headern))
