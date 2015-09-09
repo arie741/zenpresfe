@@ -302,20 +302,20 @@ form label a {
   font-weight: bold !important;
   padding-top:5px !important;
   padding-bottom: 5px !important;
+  display: block;
 }
 
 .zpbutton:hover{
   background-color:#fff100;
 }
 
-form input[type="text"], form select {
-  background-color:#58595b;
+form input[type="text"], form select, form input[type="password"] {
+  background-color:#BCBEC0;
   color:#000000;
 }
 
-form input[type="password"], form select {
-  background-color:#58595b;
-  color:#000000;
+form input[type="text"]:hover, form select:hover, form input[type="password"]:hover, form input[type="text"]:active, form select:active, form input[type="password"]:active {
+  background-color:#939598;
 }
 
 .panel-alert {
@@ -433,4 +433,24 @@ visibility: hidden;
 .center {
   margin-right: auto;
   margin-left:auto;
+}
+
+
+form .ftitle {
+  color:#000;
+  font-size:30px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom:40px;
+}
+
+form .zpanel {
+  color:#000;
+  font-size:20px;
+  padding-top:40px;
+  padding-bottom:40px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color:#fff100;
+  letter-spacing: 3px;
 }

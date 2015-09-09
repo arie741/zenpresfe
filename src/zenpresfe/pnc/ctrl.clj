@@ -6,7 +6,8 @@
             [zenpresfe.pnc.homepage :refer :all]
             [zenpresfe.pnc.signup :refer :all]
             [zenpresfe.pnc.actionsignup :refer :all]
-            [zenpresfe.pnc.login :refer :all]))
+            [zenpresfe.pnc.login :refer :all]
+            [zenpresfe.pnc.dp :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -42,3 +43,7 @@
 ;;login 
 (defn loginpage []
   (createpage login (str "Log in" ctitle) headern))
+
+;;dp
+(defn dppage []
+  (createpage dp (str "DP" ctitle) headern))

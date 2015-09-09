@@ -21,6 +21,8 @@
   (GET "/actionsignup" req
        (pages/actionsignuppage))
   (GET "/login" req
-       (pages/loginpage)))
+       (pages/loginpage))
+  (GET "/dp" req
+       (pages/dppage)))
 
 ;asdasdssss
