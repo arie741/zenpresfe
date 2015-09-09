@@ -2,22 +2,27 @@
 	<form>
 		<fieldset>
 			<legend>Create a new Public Account</legend>
-			<label>Full Name
+			<label class="error">Full Name
 				<input type="text" placeholder="Full Name">
 			</label>
-			<label>Email
+			<small class="error">Invalid entry</small>
+			<label class="error">Email
 				<input type="text" placeholder="Email">
 			</label>
-			<label>Username
+			<small class="error">Invalid entry</small>			
+			<label class="error">Username
 				<input type="text" placeholder="Username">
 			</label>
-			<label>Password
+			<small class="error">Invalid entry</small>
+			<label class="error">Password
 				<input type="text" placeholder="Password">
 			</label>
-			<label>Re-type password
+			<small class="error">Invalid entry</small>
+			<label class="error">Re-type password
 				<input type="text" placeholder="Re-type password">
 			</label>
-			<label>Class
+			<small class="error">Invalid entry</small>
+			<label class="error">Class
 				<select>
 					<option value="SD">SD</option>
 					<option value="SMP">SMP</option>
@@ -25,6 +30,7 @@
 					<option value="Alumni">Alumni</option>
 				</select>
 			</label>
+			<small class="error">Invalid entry</small>
 			<input id="checkbox1" type="checkbox"><label for="checkbox1">I agree to Zenius Prestasi <a href="#">Terms</a> </label>
 			<br>
 			<input id="checkbox2" type="checkbox"><label for="checkbox2">Subscribe me to Zenius Prestasi & ZeniusBLOG</label>
