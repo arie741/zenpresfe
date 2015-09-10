@@ -450,6 +450,7 @@ visibility: hidden;
   margin-bottom:20px;
 }
 
+
 form .zpanel {
   color:#000;
   font-size:20px;
@@ -473,4 +474,22 @@ table th {
 
 table .button {
   margin-bottom:0px;
+}
+
+.zpanel-grey {
+  background-color: #D1D3D4;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.zpanel-grey p{
+  margin-bottom: 3px;
+}
+
+.choices button {
+  background-color:#000;
+}
+
+.choices button:hover {
+  background-color:#9D8C24;
 }
