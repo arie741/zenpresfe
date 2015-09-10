@@ -309,6 +309,16 @@ form label a {
   background-color:#fff100;
 }
 
+form input[type="submit"]{
+  border:0 none;
+}
+
+form input[value="Next"]{
+  width:100px;
+  height:30px;
+  display:block;
+}
+
 form input[type="text"], form select, form input[type="password"] {
   background-color:#BCBEC0;
   color:#000000;
@@ -316,6 +326,18 @@ form input[type="text"], form select, form input[type="password"] {
 
 form input[type="text"]:hover, form select:hover, form input[type="password"]:hover, form input[type="text"]:active, form select:active, form input[type="password"]:active {
   background-color:#939598;
+}
+
+form input[type="submit"] {
+  background-color:#58595B;
+  border-bottom:3px solid #939598;
+  color:#fff;
+}
+
+form input[type="submit"]:hover {
+  background-color:#000;
+  border-bottom:3px solid #FFF100;
+  color:#fff;
 }
 
 .panel-alert {
@@ -486,10 +508,45 @@ table .button {
   margin-bottom: 3px;
 }
 
-.choices button {
+.choices input {
   background-color:#000;
+  color:#fff;
+  margin:3px 3px 3px 3px;
+  border:0 none;
+  width:30px;
+  height:30px;
 }
 
-.choices button:hover {
+.choices input:hover {
   background-color:#9D8C24;
+}
+
+.reclearn {
+  text-align: center;
+}
+
+.reclearn * {
+  text-align: center;
+  display:block;
+}
+
+.reclearn .zpbutton {
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+}
+
+.reclearn form {
+  margin-left: 18px;
+}
+
+.reclearn .sp {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-bottom:30px;
+  padding-top:30px;
+  color:#fff;
+  background-color:#000;
+  border-radius: 3px;
 }

@@ -29,6 +29,8 @@
   (GET "/problem-dp2" req
        (pages/problemdppage2))
   (GET "/dpsoal" req
-       (pages/dpsoalpage)))
+       (pages/dpsoalpage))
+  (GET "/dpsoalscore" req
+       (pages/dpsoalscorepage)))
 
 ;asdasdssssssss
