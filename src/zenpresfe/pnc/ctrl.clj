@@ -7,7 +7,9 @@
             [zenpresfe.pnc.signup :refer :all]
             [zenpresfe.pnc.actionsignup :refer :all]
             [zenpresfe.pnc.login :refer :all]
-            [zenpresfe.pnc.dp :refer :all]))
+            [zenpresfe.pnc.dp :refer :all]
+            [zenpresfe.pnc.problemdp :refer :all]
+            [zenpresfe.pnc.problemdp2 :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -47,3 +49,11 @@
 ;;dp
 (defn dppage []
   (createpage dp (str "DP" ctitle) headern))
+
+;;dp
+(defn problemdppage []
+  (createpage problemdp (str "DP" ctitle) headern))
+
+;;dp2
+(defn problemdppage2 []
+  (createpage problemdp2 (str "DP" ctitle) headern))

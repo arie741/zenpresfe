@@ -436,12 +436,18 @@ visibility: hidden;
 }
 
 
-form .ftitle {
+.ftitle {
   color:#000;
   font-size:30px;
   font-weight: normal;
   letter-spacing: 3px;
   margin-bottom:40px;
+}
+
+.fsubtitle {
+  font-size:18px;
+  margin-top:-20px;
+  margin-bottom:20px;
 }
 
 form .zpanel {
@@ -453,4 +459,18 @@ form .zpanel {
   margin-bottom: 20px;
   background-color:#fff100;
   letter-spacing: 3px;
+}
+
+.container {
+  color:#000;
+}
+
+table th {
+  color:#fff !important;
+  font-weight: normal !important;  
+  background-color: #000;
+}
+
+table .button {
+  margin-bottom:0px;
 }

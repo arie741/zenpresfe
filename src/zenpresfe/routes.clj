@@ -23,6 +23,10 @@
   (GET "/login" req
        (pages/loginpage))
   (GET "/dp" req
-       (pages/dppage)))
+       (pages/dppage))
+  (GET "/problem-dp" req
+       (pages/problemdppage))
+  (GET "/problem-dp2" req
+       (pages/problemdppage2)))
 
-;asdasdssss
+;asdasdsssss
