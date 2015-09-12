@@ -500,8 +500,7 @@ table .button {
 
 .zpanel-grey {
   background-color: #D1D3D4;
-  text-align: center;
-  padding-bottom: 30px;
+  padding:20px 20px 20px 20px;
 }
 
 .zpanel-grey p{
@@ -535,10 +534,6 @@ table .button {
   padding-bottom:10px !important;
 }
 
-.reclearn form {
-  margin-left: 18px;
-}
-
 .reclearn .sp {
   font-weight: bold;
   font-size: 50px;
@@ -549,4 +544,36 @@ table .button {
   color:#fff;
   background-color:#000;
   border-radius: 3px;
+}
+
+/* animations */
+@-webkit-keyframes opac {
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+@-moz-keyframes opac {
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+/*animations end */
+
+.notf form {
+  margin-left: 18px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.opacan {
+ -webkit-animation-name: opac;
+ -webkit-animation-duration: 1s;
+ -moz-animation-name: opac;
+ -moz-animation-duration: 1s;
 }
