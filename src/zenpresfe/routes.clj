@@ -31,6 +31,14 @@
   (GET "/dpsoal" req
        (pages/dpsoalpage))
   (GET "/dpsoalscore" req
-       (pages/dpsoalscorepage)))
+       (pages/dpsoalscorepage))
+  (GET "/exercise" req
+       (pages/exercisepage))
+  (GET "/exercisesoal" req
+       (pages/exercisesoalpage))
+  (GET "/exercisedone" req
+       (pages/exercisedonepage))
+  (GET "/exercisenote" req
+       (pages/exercisenotepage)))
 
 ;asdasdssssssss

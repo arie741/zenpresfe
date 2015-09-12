@@ -26,6 +26,13 @@
   font-weight: normal;
 }
 
+input {
+  border-top:none;
+  border-bottom:none;
+  border-left:none;
+  border-right:none;
+}
+
 .pagecontents {
   min-height: 563px;
 }
@@ -503,8 +510,27 @@ table .button {
   padding:20px 20px 20px 20px;
 }
 
-.zpanel-grey p{
+.zpanel-grey p, .zpanel-blue p{
   margin-bottom: 3px;
+}
+
+.zpanel-blue {
+  background-color: #0088C5;
+  padding:20px 20px 20px 20px;
+  color:#fff;
+}
+
+.zpanel-black-grey .zptitle {
+  background-color: #000;
+  text-align:center;
+  color:#fff;
+  padding:6px 6px 6px 6px;
+}
+
+.zpanel-black-grey .zpcontent {
+  background-color: #414042;
+  color:#fff;
+  padding:30px 30px 30px 30px;
 }
 
 .choices input {
@@ -576,4 +602,54 @@ table .button {
  -webkit-animation-duration: 1s;
  -moz-animation-name: opac;
  -moz-animation-duration: 1s;
+}
+
+.gobutton {
+  font-size:15px !important;
+  padding-left:10px !important;
+  padding-right:10px !important;
+  padding-bottom:10px !important;
+}
+
+.dpbutton {
+  border-top:none;
+  border-right:none;
+  border-left:none;
+}
+
+.bluecheck {
+  color:#004788;
+}
+
+
+.pagination input{
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  height:30px;
+  width:33px;
+  background-color: #58595B;
+  border-bottom:3px solid #939598;
+  color:#fff;
+  border-radius:1px;
+}
+
+.pagination .arrow > input{
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  height:30px;
+  width:100px;
+  background-color: #58595B;
+  border-bottom:3px solid #939598;
+  color:#fff;
+}
+
+.pagination .current input {
+  background-color: #231F20;
+  border-bottom:3px solid #FFF100;
+}
+
+.btep {
+  width:200px;
 }

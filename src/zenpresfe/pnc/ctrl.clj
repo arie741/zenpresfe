@@ -11,7 +11,11 @@
             [zenpresfe.pnc.problemdp :refer :all]
             [zenpresfe.pnc.problemdp2 :refer :all]
             [zenpresfe.pnc.dpsoal :refer :all]
-            [zenpresfe.pnc.dpsoalscore :refer :all]))
+            [zenpresfe.pnc.dpsoalscore :refer :all]
+            [zenpresfe.pnc.exercise :refer :all]
+            [zenpresfe.pnc.exercisesoal :refer :all]
+            [zenpresfe.pnc.exercisedone :refer :all]
+            [zenpresfe.pnc.exercisenote :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -67,3 +71,19 @@
 ;;dp-soal
 (defn dpsoalscorepage []
   (createpage dpsoalscore (str "DP" ctitle) headern))
+
+;;exercise
+(defn exercisepage []
+  (createpage exercise (str "DP" ctitle) headern))
+
+;;exercise
+(defn exercisesoalpage []
+  (createpage exercisesoal (str "DP" ctitle) headern))
+
+;;exercise
+(defn exercisedonepage []
+  (createpage exercisedone (str "DP" ctitle) headern))
+
+;;exercise
+(defn exercisenotepage []
+  (createpage exercisenote (str "DP" ctitle) headern))
