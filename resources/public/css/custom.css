@@ -18,6 +18,19 @@
     src: url('/css/customfonts/Lato/Lato-Light.ttf');
 }
 
+/* animations */
+@-webkit-keyframes opac {
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+@-moz-keyframes opac {
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+/*animations end */
+
 .ztext {
   color: #fff;
   padding: 13px 15px 0 15px;
@@ -373,9 +386,60 @@ form input[type="submit"]:hover {
   margin-left: auto;
 }
 
+.homeui .hmdesc {
+  background-color:#C7BA00;
+  padding:50px 25px 50px 25px;
+  letter-spacing:2px;
+  position:relative;
+}
+
+.homeui .hmimg{
+  position:relative;
+  top:-236px;
+  background-color: #fff;
+  height:236px;
+}
+
+.homeui .hmbanner {
+  height: 236px;
+  top:-236px;
+  transition:top 1s ease, height 1s ease;
+  -moz-transition:top 1s ease, height 1s ease;
+  -webkit-transition:top 1s ease, height 1s ease;
+}
+
+.homeui .hmbanner:hover {
+  top:0px;height:392px;
+}
+
+.homeui .hmimg {
+  top:-236px;
+  height:236px;
+  transition:top 1s ease, height 1s ease;
+  -moz-transition:top 1s ease, height 1s ease;
+  -webkit-transition:top 1s ease, height 1s ease;
+}
+
+.homeui .hmbanner:hover .hmimg {
+  top:0px;
+  height:156px;
+}
+
+.homeui .hmdesc p {
+  font-size:20px;
+}
+
+.homeui .hmdesc p + p {
+  font-size:10px;
+}
+
+.hmdesc {
+  height: 236px;
+}
+
 .bigbr {
-  margin-top:130px;
-  margin-bottom:130px;
+  margin-top:100px;
+  margin-bottom:40px;
 }
 
 /* tboxes */
@@ -572,19 +636,6 @@ table .button {
   border-radius: 3px;
 }
 
-/* animations */
-@-webkit-keyframes opac {
-  from{opacity: 0;}
-  to{opacity:1;}
-}
-
-@-moz-keyframes opac {
-  from{opacity: 0;}
-  to{opacity:1;}
-}
-
-/*animations end */
-
 .notf form {
   margin-left: 18px;
 }
@@ -653,3 +704,55 @@ table .button {
 .btep {
   width:200px;
 }
+
+.htestimoni {
+  background-image:url("/img/tesimg.jpg") ;
+  background-repeat:repeat;
+  background-color:#C7BA00;
+}
+
+.tesrow {
+  padding:50px 50px 50px 50px;
+}
+
+.tesrow > * {
+  min-height: 200px;
+}
+
+.tesbar  {
+  color:#000;
+  padding-left:30px;
+}
+
+.tesbar > .tescontent{
+  background-color: #fff;
+  padding:30px 30px 30px 30px;
+}
+.tesimg {
+  background-color: #000;
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.tesimg img {
+  min-height:200px;
+}
+
+.zblog {
+  color:#000;
+  letter-spacing: 2px;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.zblog p {
+  margin-top:-10px;
+}
+
+.zblog .znetblog {
+  background-color: #E2D100;
+  color:#000;
+  font-size:24px;
+  text-decoration: underline;
+}
+
