@@ -39,6 +39,12 @@
   (GET "/exercisedone" req
        (pages/exercisedonepage))
   (GET "/exercisenote" req
-       (pages/exercisenotepage)))
+       (pages/exercisenotepage))
+  (GET "/proset1" req
+       (pages/proset1page))
+  (GET "/proset2" req
+       (pages/proset2page))
+  (GET "/proset3" req
+       (pages/proset3page)))
 
 ;asdasdssssssss

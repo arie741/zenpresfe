@@ -15,7 +15,10 @@
             [zenpresfe.pnc.exercise :refer :all]
             [zenpresfe.pnc.exercisesoal :refer :all]
             [zenpresfe.pnc.exercisedone :refer :all]
-            [zenpresfe.pnc.exercisenote :refer :all]))
+            [zenpresfe.pnc.exercisenote :refer :all]
+            [zenpresfe.pnc.proset1 :refer :all]
+            [zenpresfe.pnc.proset2 :refer :all]
+            [zenpresfe.pnc.proset3 :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -87,3 +90,15 @@
 ;;exercise
 (defn exercisenotepage []
   (createpage exercisenote (str "DP" ctitle) headern))
+
+;;proset1
+(defn proset1page []
+  (createpage proset1 (str "DP" ctitle) headern))
+
+;;proset2
+(defn proset2page []
+  (createpage proset2 (str "DP" ctitle) headern))
+
+;;proset3
+(defn proset3page []
+  (createpage proset3 (str "DP" ctitle) headern))
