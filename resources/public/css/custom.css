@@ -649,12 +649,28 @@ table .button {
   color:#fff;
   margin:3px 3px 3px 3px;
   border:0 none;
-  width:30px;
-  height:30px;
+  width:35px;
+  height:35px;
 }
 
 .choices input:hover {
   background-color:#9D8C24;
+}
+
+.choices i {
+  background-color: #000;
+  border:0 none;
+  width:35px;
+  height:35px;
+  margin:3px 3px 3px 3px;
+}
+
+.choices .wrong {
+  padding-left:5px;
+}
+
+.choices .correct {
+  padding-left:2px;
 }
 
 .reclearn {
@@ -748,6 +764,15 @@ table .button {
   border-bottom:3px solid #FFF100;
 }
 
+.pagination .correct {
+  font-family:FontAwesome;
+  color:#008000;
+}
+
+.pagination .wrong {
+  font-family:FontAwesome;
+  color:#F00;
+}
 .btep {
   width:200px;
 }
@@ -874,6 +899,11 @@ table .button {
   width:80px;
 }
 
+.proset2 input {
+  margin-bottom: 0px; 
+}
+
 .proset-summ p, .proset-summ p h4{
   text-align:center;
 }
+
