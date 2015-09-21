@@ -45,6 +45,10 @@
   (GET "/proset2" req
        (pages/proset2page))
   (GET "/proset3" req
-       (pages/proset3page)))
+       (pages/proset3page))
+  (GET "/createclass" req
+       (pages/createclasspage))
+  (GET "/seclass" req
+       (pages/seclasspage)))
 
 ;asdasdssssssss

@@ -18,7 +18,9 @@
             [zenpresfe.pnc.exercisenote :refer :all]
             [zenpresfe.pnc.proset1 :refer :all]
             [zenpresfe.pnc.proset2 :refer :all]
-            [zenpresfe.pnc.proset3 :refer :all]))
+            [zenpresfe.pnc.proset3 :refer :all]
+            [zenpresfe.pnc.createclass :refer :all]
+            [zenpresfe.pnc.seclass :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -102,3 +104,12 @@
 ;;proset3
 (defn proset3page []
   (createpage proset3 (str "DP" ctitle) headern))
+
+;;createclass
+(defn createclasspage []
+  (createpage createclass (str "Create Class" ctitle) headern))
+
+
+;;seclass
+(defn seclasspage []
+  (createpage seclass (str "Show & Edit Class" ctitle) headern))

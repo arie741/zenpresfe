@@ -666,11 +666,21 @@ table .button {
 }
 
 .choices .wrong {
-  padding-left:5px;
+  font-family:FontAwesome;
+  color:#F00;
+  font-size:28px;
 }
 
 .choices .correct {
-  padding-left:2px;
+  font-family:FontAwesome;
+  color:#008000;
+  font-size:24px;
+}
+
+.choices .circled {
+  font-family:FontAwesome;
+  color:#0088C5 ;
+  font-size:24px;
 }
 
 .reclearn {
@@ -773,6 +783,13 @@ table .button {
   font-family:FontAwesome;
   color:#F00;
 }
+
+.pagination .circled {
+  font-family:FontAwesome;
+  color:#0088C5 ;
+  font-size:16px;
+}
+
 .btep {
   width:200px;
 }
