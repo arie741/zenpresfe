@@ -21,6 +21,10 @@
 (html/deftemplate headerguru "selmer/headerguru.html"
   [])
 
+
+(html/deftemplate headerpublic "selmer/headerpublic.html"
+  [])
+
 (html/deftemplate footer "selmer/footer.html"
   [])
 
@@ -34,4 +38,4 @@
 (defn createpage [pcontents tcontent header]
   (apply str (layout pcontents tcontent header)))
 
-;sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+;ssssssssssssssss

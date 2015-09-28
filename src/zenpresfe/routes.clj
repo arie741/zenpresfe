@@ -16,6 +16,8 @@
        (pages/homepagesma))
   (GET "/guru" req
        (pages/homepageguru))
+  (GET "/public" req
+       (pages/homepagepublic))
   (GET "/signup" req
        (pages/signuppage))
   (GET "/actionsignup" req

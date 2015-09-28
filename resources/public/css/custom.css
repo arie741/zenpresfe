@@ -924,3 +924,10 @@ table .button {
   text-align:center;
 }
 
+.logotext {
+  margin-left:8px;
+  font-family:'Segoe UI';
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

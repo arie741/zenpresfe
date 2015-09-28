@@ -45,6 +45,10 @@
 (defn homepageguru []
   (createpage home (str "Home" ctitle) headerguru))
 
+;;homepagepublic
+(defn homepagepublic []
+  (createpage home (str "Home" ctitle) headerpublic))
+
 ;;signup
 (defn signuppage []
   (createpage signup (str "Sign-up" ctitle) headersd))
