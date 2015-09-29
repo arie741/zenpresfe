@@ -564,7 +564,7 @@ visibility: hidden;
   font-size:30px;
   font-weight: normal;
   letter-spacing: 3px;
-  margin-bottom:40px;
+  margin-bottom:20px;
 }
 
 .fsubtitle {
@@ -577,10 +577,10 @@ visibility: hidden;
 form .zpanel {
   color:#000;
   font-size:20px;
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:30px;
+  padding-bottom:30px;
   margin-top:20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color:#fff100;
   letter-spacing: 3px;
 }
@@ -644,13 +644,14 @@ table .button {
   letter-spacing: 3px;
 }
 
-.proset-forms .zpanel-grey input, .proset-forms .zpanel-grey input:hover {
+.zpanel-grey input, .zpanel-grey input:hover {
   background-color: #ffffff;
 }
 
-.proset-forms .zpanel-grey select, .proset-forms .zpanel-grey select:hover {
+.zpanel-grey select, .zpanel-grey select:hover {
   background-color: #ffffff;
 }
+
 
 .choices input {
   background-color:#000;
