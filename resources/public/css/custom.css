@@ -644,6 +644,14 @@ table .button {
   letter-spacing: 3px;
 }
 
+.proset-forms .zpanel-grey input, .proset-forms .zpanel-grey input:hover {
+  background-color: #ffffff;
+}
+
+.proset-forms .zpanel-grey select, .proset-forms .zpanel-grey select:hover {
+  background-color: #ffffff;
+}
+
 .choices input {
   background-color:#000;
   color:#fff;
