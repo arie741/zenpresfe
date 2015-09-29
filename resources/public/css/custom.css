@@ -175,7 +175,7 @@ body h6 {
 }
 
 .soc-list li {
-  margin-top:5px;
+  margin-top:8px;
 }
 
 /*social icons end */
@@ -932,7 +932,7 @@ table .button {
 
 .logotext {
   margin-left:8px;
-  font-family:'Segoe UI';
+  font-family:cLato-Italic;
   font-style: italic;
   letter-spacing: 2px;
   font-weight: 600;
