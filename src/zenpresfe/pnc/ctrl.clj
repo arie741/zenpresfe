@@ -20,7 +20,8 @@
             [zenpresfe.pnc.proset2 :refer :all]
             [zenpresfe.pnc.proset3 :refer :all]
             [zenpresfe.pnc.createclass :refer :all]
-            [zenpresfe.pnc.seclass :refer :all]))
+            [zenpresfe.pnc.seclass :refer :all]
+            [zenpresfe.pnc.dptingkat :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -117,3 +118,7 @@
 ;;seclass
 (defn seclasspage []
   (createpage seclass (str "Show & Edit Class" ctitle) headern))
+
+;;seclass
+(defn dptingkatpage []
+  (createpage dptingkat (str "Deliberate Practice" ctitle) headern))
