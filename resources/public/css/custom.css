@@ -648,6 +648,10 @@ table .button {
   background-color: #ffffff;
 }
 
+.zpanel-grey input[type="text"], .zpanel-grey input[type="text"]:hover {
+  background-color: #ffffff !important;
+}
+
 .zpanel-grey select, .zpanel-grey select:hover {
   background-color: #ffffff;
 }
