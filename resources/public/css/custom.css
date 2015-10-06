@@ -64,6 +64,15 @@ ul {
 
 .top-bar-section {
   color:#ffffff;
+  
+}
+
+.top-bar section > * {
+  background-color:#ffffff;
+}
+
+.top-bar-section li {
+  margin-right: 4px;
 }
 
 body {
@@ -200,6 +209,7 @@ body h6 {
   padding-top:3px !important;
   border-bottom: 4px solid #fff100;
   line-height: 38px !important;
+  background-color:#ccc !important;
 }
 
 .acc-button {
@@ -208,12 +218,14 @@ body h6 {
   line-height: 38px !important;
 }
 
-.top-bar {
-  background-color:#231f20;
+nav {
+  border-style:none none groove;
+  border-width:0px 0px 3px;
+  margin-bottom:5px;
 }
 
-.top-bar * {
-  background-color:#231f20 !important;
+.top-bar {
+  background-color:#ffffff;
 }
 
 .name a {
@@ -353,6 +365,15 @@ form label a {
   padding-top:5px !important;
   padding-bottom: 5px !important;
   display: block;
+}
+
+.zpbutton-grey {
+  background-color:#CCC !important;
+  color:#555 !important;
+}
+
+.zpbutton-grey:hover, .secondary:hover {
+  background-color:#FFEA00 !important;
 }
 
 .zpbutton:hover{
