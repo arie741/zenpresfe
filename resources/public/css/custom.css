@@ -33,7 +33,7 @@
 
 .ztext {
   color: #fff;
-  padding: 13px 15px 0 15px;
+  padding: 17px 15px 0 15px;
   font-family: cLato;
   font-size: 0.8125rem;
   font-weight: normal;
@@ -51,19 +51,60 @@ input {
 }
 
 footer {
-  background-color: #000;
+  background-color:#959166;
+  color:#fff;
 }
 
 .footer-top {
-  color:#fff;
+  text-align: center;
+  padding-top:17px;
+  padding-bottom: 17px;
+}
+
+.footer-bot {
+  background-color: #898661;
+  height:45px;
+}
+
+.connect-us *{
+  padding-left:5px !important;
+  padding-right:5px !important;
+}
+
+.connect-us b {
+  font-style: italic;
 }
 
 ul {
   list-style-type: none;
 }
 
+.dropdown * {
+  background-color:#fff !important;
+}
+
 .top-bar-section {
   color:#ffffff;
+}
+
+.top-bar-section ul:active, .top-bar-section li:active {
+  background-color: #fff !important;
+}
+
+.top-bar a:hover {
+  color: #008CBA !important;
+}
+
+.top-bar .has-dropdown a {
+  color: #333 !important;
+}
+
+.top-bar section > * {
+  background-color:#ffffff;
+}
+
+.top-bar-section li {
+  margin-right: 4px;
 }
 
 body {
@@ -200,6 +241,7 @@ body h6 {
   padding-top:3px !important;
   border-bottom: 4px solid #fff100;
   line-height: 38px !important;
+  background-color:#ccc !important;
 }
 
 .acc-button {
@@ -208,12 +250,27 @@ body h6 {
   line-height: 38px !important;
 }
 
-.top-bar {
-  background-color:#231f20;
+nav {
+  box-shadow: 1px 1px 5px #000;
+  margin-bottom:5px;
 }
 
-.top-bar * {
-  background-color:#231f20 !important;
+nav * {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+}
+
+.top-bar {
+  background-color:#ffffff;
+}
+
+.top-bar a {
+  font-weight: bold !important;  
+}
+
+.top-bar-section .has-dropdown>a:after {
+  border-color:#333333 transparent transparent transparent;
+  top:16px;
 }
 
 .name a {
@@ -355,6 +412,24 @@ form label a {
   display: block;
 }
 
+.zpbutton-grey-yellow, .zpbutton-grey {
+  background-color:#CCC !important;
+  color:#555 !important;
+}
+
+.top-bar-section:active {
+  background-color: #fff;
+}
+
+.zpbutton-white {
+  background-color:#fff !important;
+  color:#333333 !important;
+}
+
+.zpbutton-grey-yellow:hover, .secondary:hover {
+  background-color:#FFEA00 !important;
+}
+
 .zpbutton:hover{
   background-color:#fff100 !important;
 }
@@ -395,11 +470,10 @@ form input[type="submit"]:hover {
 }
 
 .homecar {
-  letter-spacing: 3px;
-}
-
-.homecar {
   background-color: #231F20;
+  letter-spacing: 3px;
+  min-height:677px;
+  padding-top:90px;
 }
 
 .quotetext b {
@@ -470,6 +544,8 @@ form input[type="submit"]:hover {
 .bigbr {
   margin-top:100px;
   margin-bottom:40px;
+  min-height:587px;
+  padding-top:140px;
 }
 
 /* tboxes */
@@ -840,13 +916,23 @@ table .button {
 
 .zblog {
   color:#000;
-  letter-spacing: 2px;
-  margin-top:60px;
-  margin-bottom:60px;
+  background-color: #ccc;
+  min-height:587px;
+  padding-top:30px;
+  padding-right:174.5px;
+  padding-left:174.5px;
 }
 
 .zblog p {
-  margin-top:-10px;
+  margin-top:60px;
+}
+
+.zblog a {
+  color:#0078a0 !important;
+}
+
+.zblog h2 {
+  color:#D5B900;
 }
 
 .zblog .znetblog {
