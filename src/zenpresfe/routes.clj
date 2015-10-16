@@ -53,6 +53,8 @@
   (GET "/seclass" req
        (pages/seclasspage))
   (GET "/dptingkat" req
-       (pages/dptingkatpage)))
+       (pages/dptingkatpage))
+  (GET "/profile" req
+       (pages/profilepage)))
 
 ;asdasdssssssss

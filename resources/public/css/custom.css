@@ -31,6 +31,11 @@
 
 /*animations end */
 
+.blacktext, .blacktext *, .blacktext a {
+  font-family: cLato;
+  color:#000 !important;
+}
+
 .ztext {
   color: #fff;
   padding: 17px 15px 0 15px;
@@ -390,6 +395,10 @@ form label a {
   display: block;
 }
 
+.zpbutton-sized {
+  width:200px !important;
+}
+
 .zpbutton-red {
   border-bottom:5px solid #BE1E2D !important;
   background-color:#EF4136 !important;
@@ -400,6 +409,40 @@ form label a {
   padding-bottom: 5px !important;
   display: block;
 }
+
+.zpbutton-green-btext {
+  border-bottom:5px solid #006838 !important;
+  background-color:#8DC63F !important;
+  color:#000 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  padding-top:5px !important;
+  padding-bottom: 5px !important;
+  display: block;
+}
+
+.zpbutton-green {
+  border-bottom:5px solid #BE1E2D !important;
+  background-color:#EF4136 !important;
+  color:#fff !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  padding-top:5px !important;
+  padding-bottom: 5px !important;
+  display: block;
+}
+
+.zpbutton-blue-btext {
+  border-bottom:5px solid #003461 !important;
+  background-color:#00AfDF !important;
+  color:#000 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  padding-top:5px !important;
+  padding-bottom: 5px !important;
+  display: block;
+}
+
 
 .zpbutton-blue {
   border-bottom:5px solid #003461 !important;
@@ -445,7 +488,7 @@ form input[value="Next"]{
 }
 
 form input[type="text"], form select, form input[type="password"] {
-  background-color:#BCBEC0;
+  background-color:#ffffff;
   color:#000000;
 }
 
@@ -1031,4 +1074,10 @@ table .button {
 
 .marbot {
   margin-bottom:50px !important;
+}
+
+.avatar {
+  min-width:190px;
+  min-height:240px;
+  background-color: #333;
 }
