@@ -24,7 +24,8 @@
             [zenpresfe.pnc.dptingkat :refer :all]
             [zenpresfe.pnc.profile :refer :all]
             [zenpresfe.pnc.myprogress :refer :all]
-            [zenpresfe.pnc.contactus :refer :all]))
+            [zenpresfe.pnc.contactus :refer :all]
+            [zenpresfe.pnc.profileguru :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -137,3 +138,7 @@
 ;;contactus
 (defn contactuspage []
   (createpage contactus (str "Contact Us" ctitle) headern))
+
+;;profileguru
+(defn profilegurupage []
+  (createpage profileguru (str "Profile" ctitle) headern))
