@@ -55,6 +55,8 @@
   (GET "/dptingkat" req
        (pages/dptingkatpage))
   (GET "/profile" req
-       (pages/profilepage)))
+       (pages/profilepage))
+  (GET "/myprogress" req
+       (pages/myprogresspage)))
 
 ;asdasdssssssss

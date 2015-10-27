@@ -22,7 +22,8 @@
             [zenpresfe.pnc.createclass :refer :all]
             [zenpresfe.pnc.seclass :refer :all]
             [zenpresfe.pnc.dptingkat :refer :all]
-            [zenpresfe.pnc.profile :refer :all]))
+            [zenpresfe.pnc.profile :refer :all]
+            [zenpresfe.pnc.myprogress :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -127,3 +128,7 @@
 ;;profile
 (defn profilepage []
   (createpage profile (str "Profile" ctitle) headern))
+
+;;myprogress
+(defn myprogresspage []
+  (createpage myprogress (str "Progress" ctitle) headern))
