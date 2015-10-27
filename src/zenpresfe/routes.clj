@@ -57,6 +57,8 @@
   (GET "/profile" req
        (pages/profilepage))
   (GET "/myprogress" req
-       (pages/myprogresspage)))
+       (pages/myprogresspage))
+  (GET "/contactus" req
+       (pages/contactuspage)))
 
 ;asdasdssssssss
