@@ -61,6 +61,8 @@
   (GET "/contactus" req
        (pages/contactuspage))
   (GET "/profileguru" req
-       (pages/profilegurupage)))
+       (pages/profilegurupage))
+  (GET "/rank" req
+       (pages/rankpage)))
 
 ;asdasdssssssss

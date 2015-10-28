@@ -1081,3 +1081,23 @@ table .button {
   min-height:240px;
   background-color: #333;
 }
+
+.rank-table .search-form {
+  margin-top:18.5px !important;
+}
+
+.rank-table .search-form i {
+  color:#fff;
+  background-color: #333;
+  padding:10.5px 10.5px 10.5px 10.5px;
+  margin-left:5px;
+}
+
+.rank-table table {
+  width:100%;
+}
+
+.rank-table thead tr th {
+  background-color: #333;
+  border-top:solid #000;
+}
