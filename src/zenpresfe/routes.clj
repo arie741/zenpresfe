@@ -63,6 +63,10 @@
   (GET "/profileguru" req
        (pages/profilegurupage))
   (GET "/rank" req
-       (pages/rankpage)))
+       (pages/rankpage))
+  (GET "/totaltugas" req
+       (pages/totaltugaspage))
+  (GET "/tugas" req
+       (pages/tugaspage)))
 
 ;asdasdssssssss

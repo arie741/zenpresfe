@@ -678,15 +678,16 @@ visibility: hidden;
 }
 
 
-.ftitle {
-  color:#000;
+.ftitle, .ftitle a {
+  color:#000 !important;
   font-size:30px;
-  font-weight: normal;
+  font-weight: normal !important;
   letter-spacing: 3px;
   margin-bottom:20px;
 }
 
-.fsubtitle {
+.fsubtitle, .fsubtitle a {
+  color:#000 !important;
   font-size:18px;
   margin-top:-20px;
   margin-bottom:20px;
@@ -704,8 +705,8 @@ form .zpanel {
   letter-spacing: 3px;
 }
 
-.container {
-  color:#000;
+.container, .container a {
+  color:#000 !important;
 }
 
 table th {

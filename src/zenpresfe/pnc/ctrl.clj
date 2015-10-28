@@ -26,7 +26,9 @@
             [zenpresfe.pnc.myprogress :refer :all]
             [zenpresfe.pnc.contactus :refer :all]
             [zenpresfe.pnc.profileguru :refer :all]
-            [zenpresfe.pnc.rank :refer :all]))
+            [zenpresfe.pnc.rank :refer :all]
+            [zenpresfe.pnc.totaltugas :refer :all]
+            [zenpresfe.pnc.tugas :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -147,3 +149,11 @@
 ;;rank
 (defn rankpage []
   (createpage rank (str "Rank" ctitle) headern))
+
+;;totaltugas
+(defn totaltugaspage []
+  (createpage totaltugas (str "Tugas" ctitle) headern))
+
+;;tugas
+(defn tugaspage []
+  (createpage tugas (str "Tugas" ctitle) headern))
