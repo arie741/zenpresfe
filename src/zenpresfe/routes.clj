@@ -67,6 +67,16 @@
   (GET "/totaltugas" req
        (pages/totaltugaspage))
   (GET "/tugas" req
-       (pages/tugaspage)))
+       (pages/tugaspage))
+  (GET "/kelas" req
+       (pages/kelaspage))
+  (GET "/myclass" req
+       (pages/myclasspage))
+  (GET "/murid" req
+       (pages/muridpage))
+  (GET "/muridsaya" req
+       (pages/muridsayapage))
+  (GET "/toresults" req
+       (pages/toresultspage)))
 
-;asdasdssssssss
+;asdasdsssssssss

@@ -28,7 +28,12 @@
             [zenpresfe.pnc.profileguru :refer :all]
             [zenpresfe.pnc.rank :refer :all]
             [zenpresfe.pnc.totaltugas :refer :all]
-            [zenpresfe.pnc.tugas :refer :all]))
+            [zenpresfe.pnc.tugas :refer :all]
+            [zenpresfe.pnc.kelas :refer :all]
+            [zenpresfe.pnc.myclass :refer :all]
+            [zenpresfe.pnc.murid :refer :all]
+            [zenpresfe.pnc.muridsaya :refer :all]
+            [zenpresfe.pnc.toresults :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -157,3 +162,23 @@
 ;;tugas
 (defn tugaspage []
   (createpage tugas (str "Tugas" ctitle) headern))
+
+;;kelas
+(defn kelaspage []
+  (createpage kelas (str "Kelas" ctitle) headern))
+
+;;myclasss
+(defn myclasspage []
+  (createpage myclass (str "Kelas Saya" ctitle) headern))
+
+;;murid
+(defn muridpage []
+  (createpage murid (str "Murid" ctitle) headern))
+
+;;muridsaya
+(defn muridsayapage []
+  (createpage muridsaya (str "Murid Saya" ctitle) headern))
+
+;;toresults
+(defn toresultspage []
+  (createpage toresults (str "T.O. Results" ctitle) headern))
