@@ -493,7 +493,7 @@ form input[type="text"], form select, form input[type="password"] {
 }
 
 form input[type="text"]:hover, form select:hover, form input[type="password"]:hover, form input[type="text"]:active, form select:active, form input[type="password"]:active {
-  background-color:#939598;
+  background-color:#ffffff;
 }
 
 form input[type="submit"] {
