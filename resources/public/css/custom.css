@@ -705,8 +705,16 @@ form .zpanel {
   letter-spacing: 3px;
 }
 
-.container, .container a {
+.container {
   color:#000 !important;
+}
+
+.container a {
+  color:#000;
+}
+
+table td > a {
+  color:#008cba !important;
 }
 
 table th {
