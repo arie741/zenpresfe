@@ -719,7 +719,7 @@ table td > a {
 
 table th {
   color:#fff !important;
-  font-weight: normal !important;  
+  font-weight: bold;  
   background-color: #000;
 }
 
