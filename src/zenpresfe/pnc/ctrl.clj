@@ -33,7 +33,9 @@
             [zenpresfe.pnc.myclass :refer :all]
             [zenpresfe.pnc.murid :refer :all]
             [zenpresfe.pnc.muridsaya :refer :all]
-            [zenpresfe.pnc.toresults :refer :all]))
+            [zenpresfe.pnc.toresults :refer :all]
+            [zenpresfe.pnc.myprogress2 :refer :all]
+            [zenpresfe.pnc.dpdone :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -182,3 +184,11 @@
 ;;toresults
 (defn toresultspage []
   (createpage toresults (str "T.O. Results" ctitle) headern))
+
+;;myprogress2
+(defn myprogress2page []
+  (createpage myprogress2 (str "Progress" ctitle) headern))
+
+;;dpdone
+(defn dpdonepage []
+  (createpage dpdone (str "DP Done" ctitle) headern))

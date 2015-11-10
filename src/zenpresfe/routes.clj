@@ -77,6 +77,10 @@
   (GET "/muridsaya" req
        (pages/muridsayapage))
   (GET "/toresults" req
-       (pages/toresultspage)))
+       (pages/toresultspage))
+  (GET "/myprogress2" req
+       (pages/myprogress2page))
+  (GET "/dpdone" req
+       (pages/dpdonepage)))
 
 ;asdasdsssssssss

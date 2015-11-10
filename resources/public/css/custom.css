@@ -722,7 +722,7 @@ form .zpanel {
 }
 
 .container a {
-  color:#000;
+  color:#008cba !important;
 }
 
 table td > a {
@@ -750,6 +750,12 @@ table .button {
 
 .zpanel-blue {
   background-color: #0088C5;
+  padding:20px 20px 20px 20px;
+  color:#fff;
+}
+
+.zpanel-green {
+  background-color: #8DC63F;
   padding:20px 20px 20px 20px;
   color:#fff;
 }
@@ -838,9 +844,10 @@ table .button {
   text-align: center;
 }
 
-.reclearn * {
+.reclearn *, .reclearn a {
   text-align: center;
   display:block;
+  color:#000 !important;
 }
 
 .reclearn .zpbutton {
@@ -1081,9 +1088,18 @@ table .button {
   margin-bottom: 0px; 
 }
 
-.proset-summ p, .proset-summ p h4{
+.proset-summ p, .proset-summ h4{
   text-align:center;
 }
+
+.dp-summ p, .dp-summ h4{
+  text-align:center;
+}
+
+.dp-summ {
+  margin-bottom: 100px;
+}
+
 
 .logotext {
   margin-left:8px;
