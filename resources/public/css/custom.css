@@ -686,11 +686,17 @@ visibility: hidden;
   margin-bottom:20px;
 }
 
-.fsubtitle, .fsubtitle a {
+.fsubtitle {
   color:#000 !important;
   font-size:18px;
   margin-top:-20px;
   margin-bottom:20px;
+  text-align: center;
+}
+
+.fsubtitle a {
+  color:#008cba !important;
+  text-align: center;
 }
 
 
