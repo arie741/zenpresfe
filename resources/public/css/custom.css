@@ -399,6 +399,12 @@ form label a {
   width:200px !important;
 }
 
+.zpbutton-sized-large {
+  width:200px !important;
+  height:35px !important;
+  padding-top:7px !important;
+}
+
 .zpbutton-red {
   border-bottom:5px solid #BE1E2D !important;
   background-color:#EF4136 !important;
@@ -1129,4 +1135,10 @@ table .button {
 
 .wtable {
   width:100%;
+}
+
+.progress > strong {
+  float:right !important;
+  color:#000 !important;
+  margin-right:4px;
 }
