@@ -32,8 +32,11 @@
 /*animations end */
 
 .blacktext, .blacktext *, .blacktext a {
-  font-family: cLato;
   color:#000 !important;
+}
+
+.goldtext, .goldtext *, .goldtext a {
+  color:#BCA304 !important;
 }
 
 .ztext {
@@ -113,7 +116,6 @@ ul {
 }
 
 body {
-  color:#fff;
   font-weight: 400 !important;
   font-family: cLato;
 }
@@ -1157,4 +1159,12 @@ table .button {
   float:right !important;
   color:#000 !important;
   margin-right:4px;
+}
+
+.zradius {
+  border-radius: 5px;
+}
+
+.marginal {
+  margin:20px 20px 20px 20px;
 }

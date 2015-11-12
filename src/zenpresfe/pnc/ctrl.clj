@@ -35,7 +35,8 @@
             [zenpresfe.pnc.muridsaya :refer :all]
             [zenpresfe.pnc.toresults :refer :all]
             [zenpresfe.pnc.myprogress2 :refer :all]
-            [zenpresfe.pnc.dpdone :refer :all]))
+            [zenpresfe.pnc.dpdone :refer :all]
+            [zenpresfe.pnc.aboutus :refer :all]))
 
 ;;Pages
 (def ctitle " - Zenius Prestasi")
@@ -192,3 +193,7 @@
 ;;dpdone
 (defn dpdonepage []
   (createpage dpdone (str "DP Done" ctitle) headern))
+
+;;aboutus
+(defn aboutuspage []
+  (createpage aboutus (str "About Us" ctitle) headern))

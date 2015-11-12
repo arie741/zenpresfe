@@ -81,6 +81,8 @@
   (GET "/myprogress2" req
        (pages/myprogress2page))
   (GET "/dpdone" req
-       (pages/dpdonepage)))
+       (pages/dpdonepage))
+  (GET "/aboutus" req
+       (pages/aboutuspage)))
 
 ;asdasdsssssssss
