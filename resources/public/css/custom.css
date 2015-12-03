@@ -35,7 +35,7 @@
   color:#000 !important;
 }
 
-.goldtext, .goldtext *, .goldtext a {
+.goldtext, .goldtext *, .goldtext a { 
   color:#BCA304 !important;
 }
 
@@ -1167,4 +1167,55 @@ table .button {
 
 .marginal {
   margin:20px 20px 20px 20px;
+}
+
+.notifications {
+  position: fixed;
+  top: 55px;
+  right: 10px;
+  z-index: 3;
+}
+
+.notifications div {
+  margin-bottom:10px;
+  opacity: 0;
+  -webkit-animation-name: opac;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-direction: reverse;
+  -moz-animation-name: opac;
+  -moz-animation-duration: 4s;
+  -moz-animation-direction: reverse;
+}
+
+.notibutton , .notibutton > a:after{
+  padding-top:0px !important;
+  margin-top:-6px !important;
+  border:none !important;
+  margin-right:-15px !important;
+}
+
+.notibutton .label {
+  margin-left:-10px;
+  margin-top:-5px;
+}
+
+.zpclose-button, .zpclose-button:hover, .zpclose-button:active {
+  position:relative !important;
+  top:-20px !important;
+  right:-20px;
+  height: 0px;
+  width: 0px;
+  background-color: inherit;
+}
+
+.bs {
+  color:#BE1E2D;
+}
+
+.gs {
+  color:#8DC63F;
+}
+
+.greytext {
+  color:#ccc;
 }

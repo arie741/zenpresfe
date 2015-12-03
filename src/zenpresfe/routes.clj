@@ -83,6 +83,8 @@
   (GET "/dpdone" req
        (pages/dpdonepage))
   (GET "/aboutus" req
-       (pages/aboutuspage)))
+       (pages/aboutuspage))
+  (GET "/periksatugas" req
+       (pages/periksatugaspage)))
 
 ;asdasdsssssssss
