@@ -468,6 +468,11 @@ form label a {
   color:#555 !important;
 }
 
+.zpbutton-yellow {
+  color:#000;
+  background-color: #fff100;
+}
+
 .top-bar-section:active {
   background-color: #fff;
 }
